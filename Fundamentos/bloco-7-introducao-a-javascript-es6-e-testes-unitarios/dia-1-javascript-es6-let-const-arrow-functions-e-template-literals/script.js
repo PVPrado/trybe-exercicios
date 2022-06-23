@@ -1,7 +1,7 @@
-// Exercicio 1 pt. 1
+// Exercicio 1 pt.1
 
-const testingScope = (escopo) => (escopo === true) ? ` ótimo, fui utilizada no escopo !` : `Não devo ser utilizada fora meu escopo (else)`
-console.log(testingScope())
+// const testingScope = (escopo) => (escopo === true) ? ` ótimo, fui utilizada no escopo !` : `Não devo ser utilizada fora meu escopo (else)`;
+// console.log(testingScope());
 
 // function testingScope(escopo) {
 // if (escopo === true) {
@@ -16,3 +16,11 @@ console.log(testingScope())
 // }
 
 //  testingScope(true);
+
+// Exercicio 2 pt.1
+
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+
+oddsAndEvens.sort((a, b ) => a - b)
+
+console.log(oddsAndEvens); // será necessário alterar essa linha 😉
